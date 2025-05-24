@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact First Minds (PTY) LTD - Get in touch for construction inquiries and services">
+  <title>Contact Us | First Minds (PTY) LTD</title>
+
+  <!-- Preload critical resources -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="logo/2.png" as="image">
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="logo/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="logo/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logo/favicon/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="logo/favicon/safari-pinned-tab.svg" color="#ffc107">
+<meta name="msapplication-TileColor" content="#ffc107">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<!-- Animate on Scroll CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+<!-- Fallback for no-JS -->
+<noscript>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</noscript>
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  
+  <!-- Skip to content link for accessibility -->
+  <a href="#main-content" class="visually-hidden-focusable position-absolute top-0 start-0 p-2 bg-dark text-white">Skip to content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <span class="text-warning">First</span>Minds
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="container flex-grow-1 mt-1 pt-1" data-aos="fade-up">
+    <article class="contact-section">
+      <section class="text-center mb-5 py-4">
+        <h2 class="display-5 fw-bold mb-3">Get In Touch</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 700px;">
+          Have a project in mind or questions about our services? Reach out to our team today.
+        </p>
+      </section>
+
+      <div class="row g-4" data-aos="fade-up">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4 p-lg-5">
+              <h3 class="h4 mb-4">Send Us a Message</h3>
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name*</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                    <div class="invalid-feedback">Please provide your first name.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name*</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                    <div class="invalid-feedback">Please provide your last name.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">Please provide a valid email.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone">
+                  </div>
+                  <div class="col-12">
+                    <label for="subject" class="form-label">Subject*</label>
+                    <select class="form-select" id="subject" required>
+                      <option value="" selected disabled>Select a subject</option>
+                      <option value="general">General Inquiry</option>
+                      <option value="quote">Request a Quote</option>
+                      <option value="project">Project Inquiry</option>
+                      <option value="careers">Careers</option>
+                    </select>
+                    <div class="invalid-feedback">Please select a subject.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message*</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                    <div class="invalid-feedback">Please enter your message.</div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="consent" required>
+                      <label class="form-check-label" for="consent">
+                        I consent to First Minds contacting me about my inquiry*
+                      </label>
+                      <div class="invalid-feedback">You must agree before submitting.</div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-warning px-4 py-2" type="submit">
+                      <i class="bi bi-send-fill me-2"></i>Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col-lg-5" data-aos="fade-up">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4 p-lg-5">
+              <h3 class="h4 mb-4">Our Contact Details</h3>
+              
+              <div class="contact-info" data-aos="fade-up">
+                <div class="d-flex mb-4">
+                  <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 me-3">
+                    <i class="bi bi-geo-alt-fill text-warning fs-4"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Headquarters</h4>
+                    <p class="mb-0">
+                    <a href="maps.com:" class="text-decoration-none">Plot 5919, Kopong, Botswana</a>
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="d-flex mb-4" data-aos="fade-up">
+                  <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 me-3">
+                    <i class="bi bi-envelope-fill text-warning fs-4"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Email Us</h4>
+                    <p class="mb-0">
+                      <a href="mailto:firstminds@gmail.com" class="text-decoration-none">firstminds@gmail.com</a>
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="d-flex mb-4" data-aos="fade-up">
+                  <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 me-3">
+                    <i class="bi bi-telephone-fill text-warning fs-4"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Call Us</h4>
+                    <p class="mb-0">
+                      <a href="tel:+26772717212" class="text-decoration-none">+267 72 717 212</a>
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="d-flex" data-aos="fade-up">
+                  <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 me-3">
+                    <i class="bi bi-clock-fill text-warning fs-4"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Working Hours</h4>
+                    <p class="mb-0">Monday - Friday: 8:00AM - 5:00PM</p>
+                    <p class="mb-0">Saturday: 9:00AM - 1:00PM</p>
+                    <p>Sunday: Closed</p>
+                  </div>
+                </div>
+              </div>
+              
+              <hr class="my-4">
+              
+              <div class="social-links" data-aos="fade-up">
+                <h4 class="h6 mb-3">Connect With Us</h4>
+                <a href="https://www.facebook.com/share/1BqGt91fNJ/" class="btn btn-outline-secondary btn-sm rounded-circle me-2" aria-label="Facebook">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://wa.me/26772717212" class="btn btn-outline-secondary btn-sm rounded-circle" aria-label="WhatsApp">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4 text-center text-md-start">
+          <img src="logo/2.png" alt="First Minds Logo" class="footer-logo mb-3" width="180" height="auto">
+          <h2 class="h5 company-name">First Minds Proprietary Limited</h2>
+          <p class="mb-0">&copy; 2025 First Minds (PTY) LTD. All rights reserved.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="h5 mb-3">Connect With Us</h3>
+          <div class="social-links mb-3">
+            <a href="https://www.facebook.com/share/1BqGt91fNJ/" class="text-white me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/26772717212" class="text-white" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <p class="mb-0">
+            <i class="bi bi-telephone-fill me-2"></i>
+            <a href="tel:+26772717212" class="text-white text-decoration-none">+267 72 717 212</a>
+          </p>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <h3 class="h5 mb-3">Visit Us</h3>
+          <p class="mb-0">Plot 5919, Kopong</p>
+          <p class="mb-0">Botswana</p>
+          <p class="mb-3">
+            <a href="mailto:firstminds@gmail.com" class="text-white text-decoration-none">
+              <i class="bi bi-envelope-fill me-2"></i>firstminds@gmail.com
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS with defer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+  <!-- Custom JS -->
+  <script src="script.js" defer></script>
+
+  <div id="loader" style="position: fixed; inset: 0; background: white; z-index: 9999; display: flex; align-items: center; justify-content: center;">
+    <div class="spinner-border text-warning" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  
+
+  <!-- Contact Form Validation -->
+  <script>
+    window.addEventListener("load", function () {
+      const loader = document.getElementById("loader");
+      loader.style.opacity = 0;
+      loader.style.transition = "opacity 0.5s ease";
+      setTimeout(() => loader.style.display = "none", 500);
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true
+      });
+
+      const form = document.getElementById('contactForm');
+      form?.addEventListener('submit', function(event) {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="First Minds (PTY) LTD - Premium construction and design services in Botswana">
+  <title>Home | First Minds (PTY) LTD</title>
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="logo/2.png" as="image">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="logo/safari-pinned-tab.svg" color="#ffc107">
+  <meta name="msapplication-TileColor" content="#ffc107">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Animate on Scroll CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- Fallback for non-JS browsers -->
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </noscript>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  
+  <!-- Skip to content link for accessibility -->
+  <a href="#main-content" class="visually-hidden-focusable position-absolute top-0 start-0 p-2 bg-dark text-white">Skip to content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <span class="text-warning">First</span>Minds
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Carousel -->
+  <section id="main-content" class="hero-carousel mt-5 pt-1" data-aos="fade-up">
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner"data-aos="fade-up">
+        <div class="carousel-item active">
+          <img src="images/modern-house.webp" class="d-block w-100" alt="Modern House Construction" loading="eager">
+          <div class="carousel-caption d-block">
+            <h2 class="display-4 fw-bold mb-3">Build Your Dream Home</h2>
+            <p class="lead">Custom-designed residences with sustainable materials and innovative technology</p>
+            <a href="services.html" class="btn btn-warning btn-lg mt-3">Explore Our Services</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/design-planning.jpg" class="d-block w-100" alt="Architectural Design Planning" loading="lazy">
+          <div class="carousel-caption d-block">
+            <h2 class="display-4 fw-bold mb-3">Innovative Design Solutions</h2>
+            <p class="lead">From concept to completion, we bring your vision to life</p>
+            <a href="portfolio.html" class="btn btn-warning btn-lg mt-3">View Our Portfolio</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/construction-team.jpg" class="d-block w-100" alt="Professional Construction Team" loading="lazy">
+          <div class="carousel-caption d-block">
+            <h2 class="display-4 fw-bold mb-3">Trusted Construction Experts</h2>
+            <p class="lead">20+ years of building excellence in Botswana</p>
+            <a href="contactus.html" class="btn btn-warning btn-lg mt-3">Get a Free Consultation</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome-section py-5" data-aos="fade-up">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="display-5 fw-bold mb-4">Building Botswana's Future</h2>
+          <p class="lead mb-4">At First Minds (PTY) LTD, we combine traditional craftsmanship with modern innovation to create structures that stand the test of time.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="aboutus.html" class="btn btn-warning px-4">Our Story</a>
+            <a href="services.html" class="btn btn-outline-dark px-4">Our Services</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9 video-container">
+            <video class="rounded shadow" autoplay muted loop playsinline preload="metadata">
+              <source src="images/First Minds.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+              <div class="video-controls">
+                <button class="video-control-btn play-pause-btn" aria-label="Play/Pause video">
+                  <i class="bi bi-play-circle-fill"></i>
+                </button>
+                <button class="video-control-btn mute-btn" aria-label="Mute/Unmute video">
+                  <i class="bi bi-volume-mute-fill"></i>
+                </button>
+                <button class="video-control-btn fullscreen-btn" aria-label="Toggle fullscreen">
+                  <i class="bi bi-fullscreen"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Highlights -->
+  <section class="services-section bg-light py-5" data-aos="fade-up">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold mb-3">Our Core Services</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 700px;">Comprehensive construction solutions tailored to your needs</p>
+      </div>
+      
+      <div class="row g-4" data-aos="fade-up">
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 mb-4 mx-auto">
+                <i class="bi bi-house-door-fill text-warning fs-2"></i>
+              </div>
+              <h3 class="h5">Residential Construction</h3>
+              <p>Custom homes designed for your lifestyle and built to last generations.</p>
+              <a href="services.html#residential" class="btn btn-link text-warning p-0">Learn more →</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3" data-aos="fade-up">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 mb-4 mx-auto">
+                <i class="bi bi-building-fill text-warning fs-2"></i>
+              </div>
+              <h3 class="h5">Commercial Projects</h3>
+              <p>Functional and aesthetic commercial spaces that support business success.</p>
+              <a href="services.html#commercial" class="btn btn-link text-warning p-0">Learn more →</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3" data-aos="fade-up">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 mb-4 mx-auto">
+                <i class="bi bi-palette-fill text-warning fs-2"></i>
+              </div>
+              <h3 class="h5">3D Design & Planning</h3>
+              <p>Visualize your project before construction begins with our advanced modeling.</p>
+              <a href="services.html#design" class="btn btn-link text-warning p-0">Learn more →</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3" data-aos="fade-up">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="icon-wrapper bg-warning bg-opacity-10 rounded-circle p-3 mb-4 mx-auto">
+                <i class="bi bi-tools text-warning fs-2"></i>
+              </div>
+              <h3 class="h5">Renovations</h3>
+              <p>Transform existing spaces with our quality renovation and remodeling services.</p>
+              <a href="services.html#renovations" class="btn btn-link text-warning p-0">Learn more →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="featured-projects py-5" data-aos="fade-up">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold mb-3">Featured Projects</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 700px;">A showcase of our recent work and client successes</p>
+      </div>
+      
+      <div class="row g-4" data-aos="fade-up">
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm overflow-hidden">
+            <img src="images/projects/Office-Block-Renovation.jpg" class="card-img-top" alt="Gaborone Office Complex" loading="lazy">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Commercial</span>
+              <h3 class="h5">Gaborone Office Complex</h3>
+              <p>Modern 10-story office building with sustainable features and premium finishes.</p>
+              <a href="portfolio.html#office-complex" class="btn btn-sm btn-outline-warning">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="card border-0 shadow-sm overflow-hidden">
+            <img src="images/projects/Luxury-Villa.jpg" class="card-img-top" alt="Luxury Residential Villa" loading="lazy">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Residential</span>
+              <h3 class="h5">Luxury Residential Villa</h3>
+              <p>5-bedroom smart home with custom amenities and landscape design.</p>
+              <a href="portfolio.html#luxury-villa" class="btn btn-sm btn-outline-warning">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="card border-0 shadow-sm overflow-hidden">
+            <img src="images/projects/Historical-Building-Restoration.jpg" class="card-img-top" alt="Historical Renovation" loading="lazy">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Renovation</span>
+              <h3 class="h5">Historical Building Restoration</h3>
+              <p>Preservation of colonial-era architecture with modern infrastructure upgrades.</p>
+              <a href="portfolio.html#historical-renovation" class="btn btn-sm btn-outline-warning">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a href="portfolio.html" class="btn btn-warning px-4">View Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+ <!-- Testimonials -->
+<section class="testimonials bg-dark text-white py-5" data-aos="fade-up">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold mb-3">Client Testimonials</h2>
+      <p class="lead text-light mx-auto" style="max-width: 700px;">Hear what our clients say about working with us</p>
+    </div>
+    
+    <div class="row g-4" data-aos="fade-up">
+      <div class="col-md-4">
+        <div class="card bg-dark border-light h-100">
+          <div class="card-body p-4">
+            <div class="mb-3 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="card-text">"First Minds transformed our outdated office into a modern, functional workspace ahead of schedule and under budget."</p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="images/testimonials/client1.jpg" class="rounded-circle me-3" width="50" height="50" alt="Mr. T. Mothibi">
+              <div>
+                <h6 class="mb-0">Mr. T. Mothibi</h6>
+                <small class="text-muted">CEO, Botswana Holdings</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card bg-dark border-light h-100">
+          <div class="card-body p-4">
+            <div class="mb-3 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="card-text">"Our dream home exceeded expectations. The attention to detail and quality craftsmanship is exceptional."</p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="images/testimonials/client2.jpg" class="rounded-circle me-3" width="50" height="50" alt="The Kgosi Family">
+              <div>
+                <h6 class="mb-0">The Kgosi Family</h6>
+                <small class="text-muted">Residential Client</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card bg-dark border-light h-100">
+          <div class="card-body p-4">
+            <div class="mb-3 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="card-text">"The team handled our complex renovation with professionalism and creative problem-solving throughout."</p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="images/testimonials/client3.jpg" class="rounded-circle me-3" width="50" height="50" alt="Dr. N. Dlamini">
+              <div>
+                <h6 class="mb-0">Dr. N. Dlamini</h6>
+                <small class="text-muted">Medical Center Director</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CTA Section -->
+  <section class="cta-section bg-warning py-5" data-aos="fade-up">
+    <div class="container text-center">
+      <h2 class="display-5 fw-bold mb-3">Ready to Start Your Project?</h2>
+      <p class="lead mb-4">Contact us today for a free consultation and quote</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="contactus.html" class="btn btn-dark px-4 py-2">
+          <i class="bi bi-chat-square-text-fill me-2"></i>Get in Touch
+        </a>
+        <a href="tel:+26772717212" class="btn btn-outline-dark px-4 py-2">
+          <i class="bi bi-telephone-fill me-2"></i>Call +267 72 717 212
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4 text-center text-md-start">
+          <img src="logo/2.png" alt="First Minds Logo" class="footer-logo mb-3" width="180" height="auto">
+          <h2 class="h5 company-name">First Minds Proprietary Limited</h2>
+          <p class="mb-0">&copy; 2025 First Minds (PTY) LTD. All rights reserved.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="h5 mb-3">Connect With Us</h3>
+          <div class="social-links mb-3">
+            <a href="https://www.facebook.com/share/1BqGt91fNJ/" class="text-white me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/26772717212" class="text-white" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <p class="mb-0">
+            <i class="bi bi-telephone-fill me-2"></i>
+            <a href="tel:+26772717212" class="text-white text-decoration-none">+267 72 717 212</a>
+          </p>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <h3 class="h5 mb-3">Visit Us</h3>
+          <p class="mb-0">Plot 5919, Kopong</p>
+          <p class="mb-0">Botswana</p>
+          <p class="mb-3">
+            <a href="mailto:firstminds@gmail.com" class="text-white text-decoration-none">
+              <i class="bi bi-envelope-fill me-2"></i>firstminds@gmail.com
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS with defer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <!-- Animate on Scroll JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+
+  <!-- Custom JS -->
+  <script src="script.js" defer></script>
+
+  <div id="loader" style="position: fixed; inset: 0; background: white; z-index: 9999; display: flex; align-items: center; justify-content: center;">
+    <div class="spinner-border text-warning" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Initialize AOS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true
+      });
+    });
+  </script>
+</body>
+</html>
